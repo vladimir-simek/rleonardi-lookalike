@@ -144,3 +144,16 @@ a {
     font-size: 14px;
     font-weight: bold;
 }
+
+#portfolio-2 {
+    background-color: #f9bf3b;
+}
+
+#portfolio-2-con {
+    background-image: url("http://www.rleonardi.com/image/illustration-portfolio.png");
+}
+
+.portfolio-text-con-right {
+    right: 0;
+}
+
