@@ -103,11 +103,30 @@ a {
     margin-left: auto;
 }
 
+.portfolio-container {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .portfolio-text-con-left {
     left: 0;
 }
 
+.portfolio-text-container-left {
+    left: 0;
+}
+
 .portfolio-text-con {
+    position: absolute;
+    width: 360px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.portfolio-text-container {
     position: absolute;
     width: 360px;
     top: 50%;
@@ -172,7 +191,67 @@ a {
     background-position: center;
 }
 
-#portfolio-3-con {
+#portfolio-container-3 {
     background-image: url("http://www.rleonardi.com/image/design-portfolio.jpg");
 }
 
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #505050;
+}
+
+#footer-con {
+    position: relative;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    background-color: #505050;
+}
+
+.footer-col {
+    position: relative;
+    width: 360px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.title {
+    position: relative;
+    font-family: miso-bold;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    background-image: url("http://www.rleonardi.com/image/avatar.png");
+}
+
+.text {
+    position: relative;
+    font-family: Arial;
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+
+.footer-col-last {
+    margin-right: 0;
+}
+
+.text a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
