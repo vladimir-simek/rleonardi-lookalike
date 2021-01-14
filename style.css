@@ -1,0 +1,36 @@
+@font-face {
+    font-family: miso-bold;
+    src: url("assets/miso-bold.otf");
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #505050;
+}
+#header-con {
+    position: relative;
+    width: 1200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #505050;
+}
+
+#title-name {
+    top: 12px;
+    float: left;
+}
+
+.title {
+    position: relative;
+    font-family: miso-bold;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
