@@ -77,3 +77,70 @@ a {
 .icon-last {
     margin: 0px;
 }
+
+#portfolio-1 {
+    background-image: url("http://www.rleonardi.com/image/ground.png");
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-color: #00bff3;
+}
+
+.portfolio {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+#portfolio-1-con {
+    background-image: url("http://www.rleonardi.com/image/interactive-resume.png");
+}
+
+.portfolio-con {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolio-text-con-left {
+    left: 0;
+}
+
+.portfolio-text-con {
+    position: absolute;
+    width: 360px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.portfolio-text-title {
+    position: relative;
+    font-family: miso-bold;
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 56px;
+    margin-bottom: 18px;
+}
+.portfolio-text-body {
+    position: relative;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.portfolio-text-button {
+    position: relative;
+    display: inline-block;
+    padding: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
