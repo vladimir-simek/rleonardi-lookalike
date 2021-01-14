@@ -13,6 +13,7 @@ header {
     height: 60px;
     background-color: #505050;
 }
+
 #header-con {
     position: relative;
     width: 1200px;
@@ -33,4 +34,46 @@ header {
     color: #ffffff;
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+#icons-right {
+    position: relative;
+    top: 8px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon-facebook {
+    background-image: url("http://www.rleonardi.com/image/icon-facebook.png");
+}
+
+.icon {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.icon-twitter {
+    background-image: url("http://www.rleonardi.com/image/icon-twitter.png");
+}
+
+.icon-dribbble {
+    background-image: url("http://www.rleonardi.com/image/icon-dribbble.png");
+}
+
+.icon-linkedin {
+    background-image: url("http://www.rleonardi.com/image/icon-linkedin.png");
+}
+
+.icon-email {
+    background-image: url("http://www.rleonardi.com/image/icon-email.png");
+}
+
+.icon-last {
+    margin: 0px;
 }
