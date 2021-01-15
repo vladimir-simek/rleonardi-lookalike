@@ -261,3 +261,7 @@ footer {
     flex-direction: row;
     justify-content: left;
 }
+
+.wdd {
+    width: 220px;
+}
