@@ -11,13 +11,9 @@ header {
     background-color: #505050;
     height: 60px;
 }
-.bum {
-    width: 1200px;
-    margin-left: 10%;
-}
 
 #title-name {
-    width: 200px;
+    bottom: 5px;
 }
 
 .title {
@@ -29,12 +25,8 @@ header {
 }
 
 #icons-right {
-    display: flex;
     position: relative;
     top: 8px;
-    justify-content: right;
-    height: 60px;
-    width: 900px;
 }
 
 a {
@@ -197,6 +189,9 @@ footer {
 }
 
 #footer-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
     width: 1200px;
     margin-left: auto;
@@ -206,7 +201,6 @@ footer {
 }
 
 .footer-col {
-    display: inline-block;
     position: relative;
     width: 360px;
     margin-right: 60px;
@@ -228,7 +222,6 @@ footer {
     height: 120px;
     margin-right: 20px;
     margin-bottom: 20px;
-    float: left;
     background-image: url("http://www.rleonardi.com/image/avatar.png");
 }
 
@@ -251,9 +244,20 @@ footer {
     color: #ffffff;
 }
 
-.footer-col-top {
-    display: inline-block;
+#header-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
-    width: 360px;
-    margin-right: 60px;
+    width: 1200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #505050;
+}
+
+.bumbum {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
